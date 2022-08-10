@@ -1,4 +1,6 @@
-
+* {
+  box-sizing: border-box;
+}
 
 body{
   font-family: 'Inter', sans-serif;
@@ -190,4 +192,123 @@ body{
   line-height: 150%;
   color: #211B12;
   margin-left: 4px;
+}
+
+/*======= developer ===================*/
+.developer {
+  display: flex;
+  align-content: center;
+  margin-bottom: 40px;
+}
+.developer-photo {
+  width: 360px;
+  height: 440px;
+  flex-shrink: 0;/*это св-во не дает картинке уменьшаться (со значением 0)*/
+  object-fit: cover;
+  border-radius: 20px;
+  margin-right: 55px;
+}
+.developer-about {
+}
+.developer-hello {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 135%;
+  letter-spacing: -0.02em;
+  margin-bottom: 4px;
+}
+.developer-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 125%;
+  letter-spacing: -0.03em;
+  color: #BF7506;
+  margin-bottom: 16px;
+}
+.developer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #211B12;
+}
+.motto {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  color: #DD9C3C;
+  margin-bottom: 16px;
+}
+.developer-sign {
+  width: 200px;
+  height: 75px;
+  margin-top: 16px;
+}
+
+/*====== skills ==========*/
+.skills {
+  margin-bottom: 120px;
+}
+.skills-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 135%;
+  letter-spacing: -0.02em;
+  color: #211B12;
+  margin-bottom: 13px;
+}
+ /*======= feedback =========*/
+.feedback {
+}
+.form-container {
+  max-width: 435px;
+  margin: auto;
+}
+.feedback-title {
+  margin-bottom: 16px;
+}
+.form {
+}
+.input-group {
+  position: relative;
+  padding-top: 8px;
+  margin-bottom: 24px;
+}
+.input-label {
+  position: absolute;
+  top: 0;
+  left: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #83807C;
+  padding: 0 8px;
+  background: #FFFFFF;
+}
+.input {
+  border: 3px solid #E0DEDC;
+  border-radius: 4px;
+  width: 435px;
+  height: 56px;
+}
+.textarea {
+  min-height: 140px;
+  padding-top: 10px;
+}
+.button-group {
+  position: relative;
+  margin-bottom: 167px;
+}
+.submit-button {
+  position: absolute;
+  right: 0;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #211B12;
+  margin-left: 4px;
+  border: none;
+  background-color: #FFFFFF;
+  border-bottom: 2px solid #BF7506;
 }
