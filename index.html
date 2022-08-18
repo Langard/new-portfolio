@@ -14,20 +14,20 @@
 <body>
    <!--navbar start-->
   <div class="navbar container">
-    <img src="image/logo.svg" alt="logo">
+    <a href="#"><img src="image/logo.svg" alt="logo"></a> 
     <nav class="navigation">
       <ul class="nav-list">
-        <li class="nav-item "><a href="#" class="nav-link active">Главная</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Проекты</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Обо мне</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Связаться</a></li>
+        <li class="nav-item "><a href="#main" class="nav-link active">Главная</a></li>
+        <li class="nav-item"><a href="#portfolio" class="nav-link">Проекты</a></li>
+        <li class="nav-item"><a href="#developer" class="nav-link">Обо мне</a></li>
+        <li class="nav-item"><a href="#feedback" class="nav-link">Связаться</a></li>
       </ul>
     </nav>
   </div>
   <!--navbar end-->
 
   <!--header start-->
-  <header class="header container">
+  <header class="header container" id="main">
     <img class="header-photo" src="image/sticker 2.png" alt="Гангардт"></img>
     <!-- /.header-photo -->
     <div class="header-text">
@@ -53,7 +53,7 @@
   <!-- /.header -->
 
   <!-- portfolio start -->
-  <section class="portfolio">
+  <section class="portfolio" id="portfolio">
     <div class="container">
       <h2 class="section-heading">Последние проекты</h2>
       <div class="cards">
@@ -118,12 +118,12 @@
   <!-- portfolio end -->
 
   <!-- developer start --> 
-  <section class="developer container">
+  <section class="developer container" id="developer">
     <img class="developer-photo" src="image/developer-photo.png" alt="developer имя">
     <div class="developer-about">
-      <span class="developer-hello">Рад вас видеть</span>
-      <h2 class="developer-title">Я Артем Исламов</h2>
-      <p class="developer-text">Я разрабатываю сайты для людей и компаний. Делаю всё сам: составляю прототип, дизайн-макет, пишу код.</p>
+      <span class="developer-hello">Рада вас видеть</span>
+      <h2 class="developer-title">Я Светлана Гангардт</h2>
+      <p class="developer-text">Я разрабатываю сайты для людей и компаний. Делаю всё сама: составляю прототип, дизайн-макет, пишу код.</p>
       <span class="motto">Код, Дизайн, Обучение</span>
       <p class="developer-text">Могу собрать страницу для вашей компании, даже если запускать её нужно уже завтра. Из инструментов есть: 
         Tilda, Webflow, Figma, HTML, CSS, JavaScript и Wordpress</p>
@@ -133,7 +133,7 @@
   <!-- developer end --> 
 
   <!-- skills start --> 
-  <section class="skills container">
+  <section class="skills container" id="skills">
     <h2 class="skills-title">Работаю с разными языками и инструментами</h2>
     <ul class="tags">
       <li class="tags-item">
@@ -159,8 +159,10 @@
   <!-- skills end --> 
 
   <!-- feedback start --> 
-  <section class="feedback form-container">
-    <h2 class="feedback-title">Готов обсудить проект...</h2>
+  <section class="feedback" id="feedback">
+    <img class="feedback-hand" src="image/hand.png" alt="feedback-hand">
+    <div class="form-container">
+      <h2 class="feedback-title">Готова обсудить проект...</h2>
     <form action="" class="form">
       <div class="input-group">
         <label for="userName" class="input-label">Имя</label>
@@ -184,8 +186,25 @@
         </button>
       </div>
     </form>
+    </div>
+    
   </section>
   <!-- feedback end --> 
+
+  <!-- footer start --> 
+  <footer class="footer container">
+    <a href="#"><img src="image/logo.svg" alt="logo"></a> 
+    <nav class="navigation">
+      <ul class="nav-list">
+        <li class="nav-item "><a href="#" class="nav-link active">Главная</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Проекты</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Обо мне</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Связаться</a></li>
+      </ul>
+    </nav>
+  </footer>
+
+   <!-- footer end --> 
 
 </body>
 </html>
