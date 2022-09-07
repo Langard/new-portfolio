@@ -42,7 +42,7 @@
             <li class="social-item"><a href="" class="social-link"><img src="image/Icons/stackoverflow.svg" alt="stackoverflow" class="social-logo"></a></li>
             <li class="social-item"><a href="" class="social-link"><img src="image/Icons/youtube.svg" alt="youtube" class="social-logo"></a></li>
           </ul>
-          <a href="#" class="cv-download">
+          <a href="files/document.pdf" target="_blank" download class="cv-download">
             <img src="image/download.svg" alt="download" class="cv-icon">
             <span class="cv-text">Скачать резюме</span>
           </a>
@@ -166,17 +166,17 @@
     <form action="" class="form">
       <div class="input-group">
         <label for="userName" class="input-label">Имя</label>
-        <input id="userName" type="text" class="input">
+        <input id="userName" name="client_name" type="text" class="input">
       </div>
 
       <div class="input-group">
         <label for="userEmail" class="input-label">Email</label>
-        <input id="userEmail" type="email" class="input">
+        <input id="userEmail" name="client_email" type="email" class="input">
       </div>
 
       <div class="input-group">
         <label for="userMessage" class="input-label">Сообщение</label>
-        <textarea id="userMessage" cols="30" rows="10" class="input textarea"></textarea>
+        <textarea id="userMessage" name="client_message" cols="30" rows="10" class="input textarea"></textarea>
       </div>
 
       <div class="button-group">
@@ -205,6 +205,6 @@
   </footer>
 
    <!-- footer end --> 
-
+  <script src="js/main.js"></script>
 </body>
 </html>
